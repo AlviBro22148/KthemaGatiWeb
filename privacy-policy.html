@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Kthema Gati</title>
+  <meta name="description" content="How Kthema Gati collects, uses, stores and protects your personal data across the mobile app, dashboard and partner network." />
+  <link rel="icon" href="assets/kthemagatilogo.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="navbar dark-nav" id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/kthemagatilogo.png" alt="Kthema Gati" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="index.html#features" class="nav-link">Services</a></li>
+        <li><a href="index.html#how-it-works" class="nav-link">How It Works</a></li>
+        <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+        <li><a href="about.html" class="nav-link">About Us</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <div class="nav-divider"></div>
+        <a href="pricing.html" class="btn btn-outline-white btn-sm">View Pricing</a>
+        <a href="contact.html" class="btn btn-primary btn-sm">Get Started</a>
+        <button class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="mobile-nav dark-bg">
+  <a href="index.html" class="mobile-nav-link">Home</a>
+  <a href="index.html#features" class="mobile-nav-link">Services</a>
+  <a href="index.html#how-it-works" class="mobile-nav-link">How It Works</a>
+  <a href="pricing.html" class="mobile-nav-link">Pricing</a>
+  <a href="about.html" class="mobile-nav-link">About Us</a>
+  <a href="contact.html" class="mobile-nav-link">Contact</a>
+  <div class="mobile-nav-sep"></div>
+  <a href="contact.html" class="btn btn-primary">Start for Free</a>
+</div>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <div class="container">
+    <div class="page-header-inner">
+      <nav class="breadcrumb"><a href="index.html">Home</a><span>/</span><span style="color:rgba(255,255,255,0.8);">Privacy Policy</span></nav>
+      <h1>Privacy Policy</h1>
+      <p>How we collect, use and protect your data across the Kthema Gati app, dashboard and partner network.</p>
+    </div>
+  </div>
+</div>
+
+<!-- CONTENT -->
+<section class="legal-section">
+  <div class="container">
+    <div class="legal-content">
+      <div class="legal-updated">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        Last updated: July 2026
+      </div>
+
+      <div class="legal-note">This policy is written to reflect exactly how the Kthema Gati mobile app, dashboard and backend handle data today. Sections marked with a bracketed note still need a final detail confirmed with legal counsel before this page is treated as final and binding.</div>
+
+      <h2>1. Who We Are</h2>
+      <p><strong>Kthema Gati</strong> is a vehicle maintenance platform operated from <strong>Elbasan, Albania</strong>. [Registered company name and NUIS/NIPT business registration number to be added once confirmed.] For any question about this policy or your data, contact us at <a href="mailto:info@kthemagati.al">info@kthemagati.al</a> or by phone at <a href="tel:+355699978135">+355 69 997 8135</a>, Monday–Friday, 08:00–18:00.</p>
+      <p>For the services booked through our platform, Kthema Gati acts as the <strong>data controller</strong> for account, booking and payment data. Partner garages receive the data needed to perform the repair (vehicle details, request description, your contact info) and act as independent controllers for the data they generate while servicing your vehicle, such as internal job notes.</p>
+
+      <h2>2. What Personal Data We Collect</h2>
+      <p>We only collect what's needed to run the booking, tracking and payment experience:</p>
+      <ul>
+        <li><strong>Identity &amp; contact:</strong> full name, email address, phone number (Albanian format)</li>
+        <li><strong>Account &amp; security:</strong> password (stored bcrypt-hashed, never in plain text), account role (Client/Staff/Admin), account creation date</li>
+        <li><strong>Profile:</strong> profile picture, stored via our media provider Cloudinary</li>
+        <li><strong>Device &amp; push notifications:</strong> Firebase Cloud Messaging (FCM) token and basic device info, used only to deliver your notifications</li>
+        <li><strong>Vehicle data:</strong> brand, model, year, license plate and VIN (if provided)</li>
+        <li><strong>Service data:</strong> repair request descriptions, scheduled date/time, status history, ratings and comments you leave</li>
+        <li><strong>Media uploads:</strong> photos, videos and audio recordings you attach to a repair request, plus pickup/return photos and signatures. Photos and videos can carry embedded GPS location data — please be aware of this before uploading media taken with location services enabled</li>
+        <li><strong>Financial data:</strong> invoice amounts, payment method type, and payment timestamps. [Name of payment processor to be added once billing is fully wired up; card numbers are never stored on Kthema Gati's own servers.]</li>
+      </ul>
+
+      <h2>3. How We Collect It</h2>
+      <ul>
+        <li>Directly from you — when you register, fill out a form, or upload media</li>
+        <li>Automatically — device information, FCM token, and timestamps generated as you use the app</li>
+        <li>From partner garages — status updates and invoices tied to your booking</li>
+      </ul>
+
+      <h2>4. Why We Process Your Data</h2>
+      <ul>
+        <li><strong>Contract performance</strong> — to book and deliver the repair service you request</li>
+        <li><strong>Legitimate interest</strong> — service quality, fraud prevention, and notifying you about your own requests</li>
+        <li><strong>Consent</strong> — for optional marketing communications, which you can opt out of at any time</li>
+        <li><strong>Legal obligation</strong> — invoicing and tax record-keeping under Albanian law</li>
+      </ul>
+
+      <h2>5. Who We Share Data With</h2>
+      <ul>
+        <li><strong>Cloudinary</strong> — stores uploaded photos, video, audio and documents. Cloudinary is a US-based processor, meaning your media may be transferred outside Albania/the EU for storage.</li>
+        <li><strong>Firebase (Google)</strong> — delivers push notifications via FCM; the same cross-border transfer note applies.</li>
+        <li><strong>Partner garages</strong> — receive the repair request, relevant vehicle details and your contact information needed to perform the service.</li>
+        <li><strong>Payment processor</strong> — handles the actual card transaction. [Name to be added once a payment gateway is integrated.]</li>
+        <li>Our database is hosted on PostgreSQL. [Hosting provider and country to be confirmed for data-residency disclosure.]</li>
+      </ul>
+      <p>We do not sell your personal data to third parties for advertising purposes.</p>
+
+      <h2 id="retention">6. How Long We Keep Your Data</h2>
+      <p>Service history is kept according to your plan: Essential retains 6 months of visible history; Comfort and VIP retain your full history for as long as your account is active. [Whether Essential history is deleted or simply hidden after 6 months is to be confirmed.] Photos and videos attached to a completed job are kept for the same period as the related service record. Invoices are retained for the period required by Albanian tax law.</p>
+
+      <h2 id="rights">7. Your Rights</h2>
+      <ul>
+        <li>Access, correct or delete the personal data we hold about you</li>
+        <li>Request account deletion from the app's account settings, or by emailing <a href="mailto:info@kthemagati.al">info@kthemagati.al</a></li>
+        <li>Withdraw consent for marketing communications and optional push notifications at any time</li>
+      </ul>
+      <p>For questions or complaints about how your data is handled, contact us first at <a href="mailto:info@kthemagati.al">info@kthemagati.al</a>. If you are not satisfied with our response, you may contact Albania's data protection authority, the Commissioner for the Right to Information and Protection of Personal Data (Komisioneri për të Drejtën e Informimit dhe Mbrojtjen e të Dhënave Personale), or the relevant EU authority if you are located in the EU.</p>
+
+      <h2>8. How We Protect Your Data</h2>
+      <ul>
+        <li>Passwords are hashed with bcrypt and never stored or transmitted in plain text</li>
+        <li>Authentication uses signed, time-limited JWT tokens</li>
+        <li>Access to data is restricted by role (Client / Staff / Admin)</li>
+      </ul>
+
+      <h2>9. Children's Privacy</h2>
+      <p>Kthema Gati is intended for users aged 18 and over, as an account implies legal ownership or authorized use of a registered vehicle. We do not knowingly collect data from minors.</p>
+
+      <h2 id="cookies">10. Cookies &amp; Tracking</h2>
+      <p>Our marketing website and dashboard do not currently use analytics or advertising cookies. If that changes, this page will be updated and a cookie consent banner will be added before any tracking begins.</p>
+
+      <h2>11. Changes to This Policy</h2>
+      <p>If we make material changes to this policy, we'll notify registered users by email or in-app notification before the changes take effect.</p>
+
+      <h2>12. Contact</h2>
+      <p>Kthema Gati — Elbasan, Albania<br />Email: <a href="mailto:info@kthemagati.al">info@kthemagati.al</a><br />Phone: <a href="tel:+355699978135">+355 69 997 8135</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/kthemagatilogo.png" alt="Kthema Gati" class="footer-logo" />
+        <p>Albania's innovative vehicle maintenance platform. Your car deserves the best care.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="3"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Product</h4><div class="footer-links"><a href="index.html#features">Services</a><a href="index.html#how-it-works">How It Works</a><a href="pricing.html">Pricing</a><a href="#">Download the App</a></div></div>
+      <div class="footer-col"><h4>Company</h4><div class="footer-links"><a href="about.html">About Us</a><a href="about.html#awards">Awards &amp; Achievements</a><a href="contact.html">Contact</a></div></div>
+      <div class="footer-col"><h4>Support</h4><div class="footer-links"><a href="faq.html">FAQ</a><a href="privacy-policy.html">Privacy Policy</a><a href="terms-of-service.html">Terms of Service</a><a href="contact.html">Help</a></div></div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Kthema Gati. All rights reserved. Made in Albania.</p>
+      <div class="footer-bottom-links"><a href="privacy-policy.html">Privacy</a><a href="terms-of-service.html">Terms</a><a href="privacy-policy.html#cookies">Cookies</a></div>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
